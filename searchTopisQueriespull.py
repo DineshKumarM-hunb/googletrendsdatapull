@@ -10,8 +10,6 @@ pytrends = TrendReq(hl='en-US')
 
 all_keywords = '*' #In trends search '*' is considered as escape character which displys all keywords in a category
 
-timeframes = ['today 5-y', 'today 12-m',
-              'today 3-m', '2021-02-27 2021-03-27', '2021-03-27 2021-04-27']
 #Below is the time frames in month wise for the past 10 years
 timeintrevals = ["2011-01-01 2011-01-31", "2011-02-01 2011-02-28",
                  "2011-03-01 2011-03-31",
